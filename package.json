@@ -1,0 +1,51 @@
+{
+  "name": "girisekrani",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "add": "^2.0.6",
+    "axios": "^0.18.0",
+    "eslint-plugin-react-native": "^3.2.1",
+    "expo": "^28.0.0",
+    "firebase": "^5.0.3",
+    "git": "^0.1.5",
+    "link": "^0.1.5",
+    "react": "16.3.1",
+    "react-native": "^0.55.4",
+    "react-native-button": "^2.3.0",
+    "react-native-elements": "^1.0.0-beta5",
+    "react-native-firebase": "^4.3.8",
+    "react-native-label-select": "^1.1.0",
+    "react-native-list-view-select": "^1.0.4",
+    "react-native-multiple-choice": "0.0.8",
+    "react-native-multiple-select-list": "^1.0.4",
+    "react-native-navigation": "^1.1.476",
+    "react-native-picker": "^4.3.7",
+    "react-native-pull-to-refresh": "^2.1.3",
+    "react-native-router-flux": "^4.0.0-beta.27",
+    "react-native-scrollable-tab-view": "^0.8.0",
+    "react-native-selectme": "^1.2.3",
+    "react-navigation": "^2.9.0",
+    "react-redux": "^5.0.7",
+    "redux": "^4.0.0"
+  },
+  "devDependencies": {
+    "babel-jest": "23.2.0",
+    "babel-preset-react-native": "4.0.0",
+    "eslint-config-rallycoding": "^3.2.0",
+    "jest": "23.2.0",
+    "react-test-renderer": "16.3.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "proxy": {
+    "/api/masa/findall": {
+      "target": "http://10.107.6.108:3168"
+    }
+  }
+}
